@@ -1,6 +1,6 @@
 # Residential Proxies Session Retention Tester
 
-Tool to test % of session that manage to stay active for 10 minutes.
+Tool to test % of sessions that manage to stay active for ~10 minutes.
 
 Params:
 
