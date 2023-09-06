@@ -39,7 +39,7 @@ func New(sessCount int) *SessTester {
 	return st
 }
 
-func (st *SessTester) DoItAllWithParams(username, password, cc, city, iptarget string) {
+func (st *SessTester) TestSessions(username, password, cc, city, iptarget string) {
 	for i := 0; i < st.sessCount; i++ {
 		sessID := fmt.Sprintf("test%d_%d", time.Now().Unix(), i)
 		go st.testSession(sessID, username, password, cc, city, iptarget)

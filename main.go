@@ -37,7 +37,7 @@ func main() {
 		}
 	}()
 
-	st.DoItAllWithParams(*username, *password, *cc, *city, *ipTarget)
+	st.TestSessions(*username, *password, *cc, *city, *ipTarget)
 
 	fmt.Println("Done at: ", time.Now().String(), " in: ", time.Now().Sub(start).Minutes(), " minutes")
 }
