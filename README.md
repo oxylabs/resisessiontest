@@ -22,5 +22,5 @@ Params:
 
 Example:
 ```
-./sessiontest -u myUsername -p myPassword -cc us -city los_angeles
+./resisessiontest -u myUsername -p myPassword -cc us -city los_angeles
 ```
