@@ -16,7 +16,7 @@ Params:
         -city string
             city parameter (default "nice")
         -iptarget string
-            ip check target (default "https://ipinfo.io/ip")
+            ip check target (default "https://ip.oxylabs.io")
         -sessions int
             sessions to test concurrently (default 100)
 
