@@ -11,7 +11,7 @@ import (
 	"github.com/oxylabs/resisessiontest/sessiontester"
 )
 
-const DefaultIPCheckTarget = "https://ipinfo.io/ip"
+const DefaultIPCheckTarget = "https://ip.oxylabs.io"
 
 func main() {
 	username := flag.String("u", "", "Oxylabs proxy username")
