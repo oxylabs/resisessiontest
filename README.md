@@ -1,4 +1,5 @@
 # Residential Proxies Session Retention Tester
+[![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
 Tool to test % of sessions that manage to stay active for ~10 minutes.
 
